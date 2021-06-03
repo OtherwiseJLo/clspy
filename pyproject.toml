@@ -5,6 +5,9 @@ description = "LSP Implementation for the C language using PyGls"
 authors = ["OtherwiseJLo <jonathanglopez@gmail.com>"]
 license = "MIT"
 
+[tool.poetry.scripts]
+clspy = "clspy.main:app"
+
 [tool.poetry.dependencies]
 python = "^3.7"
 pygls = "^0.10.3"
